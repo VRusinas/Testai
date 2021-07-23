@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 12px;
+}
+body{
+  background: linear-gradient(#721140f0, #B71C1C, #721140f0);
+  background-size: cover;
+  color: #fdcbfe;
+  font-family: Montserrat;
+
+}
+.remelis{
+  width:100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin top: 4rem;
+  text-align: center;
+}
+h1 {
+  margin-top: 4rem;
+  font-size:5rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+h2 {
+  margin-top: 6rem;
+  font-size:2rem;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+.apvalus {
+  border-radius: 50%;
+  width: 350px;
+  height: 330px;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+p{
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+}
+.button{
+  display:inline-block;
+  padding: 2.5rem 7.5rem;
+  background: #fdcbfe;
+  text-decoration: none;
+  color:#621804fa;
+  border-radius:10px;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+.button:hover{
+  background:#b2a7b2;
+}
+img
+{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  size:50%;
+}
+.imgborder {
+   display:inline-block;
+   position:relative;
+   border:1px solid #fdcbfe;
+   padding:2px;
+   background:#fdcbfe;;
+}
